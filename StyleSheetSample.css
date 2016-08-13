@@ -1,0 +1,48 @@
+/* StyleSheetSample.css*/
+
+
+
+/* Style rule for the body element */
+body{
+    /* The background fills the entire browser window */
+    background-color: #0ff;  /* aqua */
+    background-image: url(pix/bkgdrops.jpg);
+    background-repeat: repeat; /* default */
+    /* Default font styling */
+    font: 10pt ariel, helvetica, sans-serif;
+    
+}
+
+/* The foreground defaults: background is transparent;
+ *                          width is as wide as its container;
+ *                          it's only as tall as it needs to be to contain the contents;
+ *                          no visible borders...
+ */                             
+
+/* Style rule for the mainContentDiv */
+#mainContentDiv{
+    width:900px;     /* fits on smartphones and ipods, etc */
+    margin: 0 auto;  /* center it horizontally */
+    background-color: white;
+    border:solid 3px black;  /*adds a border around the div */
+    border-radius:4px; /* rounds the conrners of the div */
+    box-shadow:5px 5px gray; /* adds a shadow to make the div float */
+}
+
+/* Style rule for the heading elements */
+h1{
+    font-family: times new roman, times, serif;
+    color:blue;
+}
+
+h2{
+    font-family: ariel, helvetica, sans-serif;
+    color:green;
+}
+
+h4{
+    font-family: ariel, helvetica, sans-serif;
+    font-weight: normal;  /*remove the bold default */
+    color: red;
+}
+

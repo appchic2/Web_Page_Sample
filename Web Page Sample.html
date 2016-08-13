@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>  <!-- Start of Document -->
+  <head>  <!-- The <head> contains info(metadata) about the web page.
+            It does not contain any content. -->
+    <meta charset="utf-8">
+        
+     <!-- Appears in the title bar. Max 6 words.-->
+    <title>Web Page Sample</title>
+    
+     <!-- Link to the external style sheet. Do not change the rel or type.  -->
+    <link href="StyleSheetSample.css" rel="stylesheet" type="text/css" />
+    
+     <!-- Internal Style Sheet Definition  -->
+    <style type="text/css">
+        
+    </style> 
+  </head> <!-- End of head -->
+
+  <body>
+    <div id="mainContentDiv">
+        <h1>This is Sample Content</h1>
+               
+        <h2>This is a Sample Paragraph with inline elements</h2>
+        <!-- I used the <abbr> tag so a screen reader for the blind doesn't try and
+            pronounce the non-word as a word. I also used the title= attribute
+             to define the abbreviation so it can appear as a screen tip or be read
+             by the screen reader. Although you can style these elements in CSS as well,
+             the HTML tags(<strong> and <em>) direct a screen reader to emphasize the word
+             when it is being read. The CSS styling is strictly visual. 
+        -->
+        <h4> ** Hover over the word "abbr" in the paragraph below to see a screen tip.</h3>
+        <p>This is a paragraph with an <abbr title="abbreviation">abbr</abbr>, <b>bold</b>,
+            <i>italic</i>,<br><em>em-italic</em>, <q>quotes</q>, <small>small</small>, <span>span</span>
+            and <strong>strong</strong><br> inline elements.
+        </p>
+        
+        <h2>This is a Sample Paragraph with inline image</h2>
+        <p>
+            This paragraph is using the img tag to display a <img src="tinycool.png" alt="cool">
+            tiny image in<br>the content area. It will diplay in it's original size and it will render
+            like an<br>inline element, not causing any line breaks or disruption to the display of the text. 
+        </p>
+        
+        <h2>This is a Sample Paragraph with an image</h2>
+        <p style="text-align:center;">
+            <img src="daisy.png" alt="Daisy">
+            <br>
+            A Beautiful Daisy
+        </p>
+        
+        <h2>This is a Sample Div with an image</h2>
+        <div style="text-align:center;">
+            <img src="daisy.png" alt="Daisy">
+            <br>
+            A Beautiful Daisy
+        </div>
+                
+        <h2>This is a Sample Ordered List</h2>
+        <ol>
+           <li>Ordered list, item 1</li>
+           <li>Ordered list, item 2</li>
+        </ol>
+        
+        <h2>This is a Sample Unordered List</h2>
+        <ul>
+           <li>Unordered list, item 1</li>
+           <li>Unordered list, item 2</li>
+        </ul>
+        
+        <h2>This is a Sample Address</h2>
+        <address>123 Middle Rd<br>Nowhere, MD</address>
+        
+        
+        <h3>This is an h3 heading</h4>
+    </div>
+
+
+  </body>  <!-- End of body -->
+  
+</html> <!-- End of Document -->
+
